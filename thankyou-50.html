@@ -287,11 +287,6 @@ a:focus-visible, button:focus-visible{ outline:2px solid var(--gold-2); outline-
     }
   }
 
-  if(!hasValidIntent()){
-    window.location.replace(HOME_URL);
-    return;
-  }
-
   document.getElementById('download50').setAttribute('href', DOWNLOAD_50_URL);
   document.getElementById('supportLink').setAttribute('href', 'mailto:' + SUPPORT_EMAIL);
   document.getElementById('supportLink').textContent = SUPPORT_EMAIL;
